@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  background-color: #fefefe;
+}
+
+img {
+  width: 120px;
+}
+.image-circle {
+  border-radius: 50%;
+}
+h1 {
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: rgb(5, 121, 188);
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(4, 48, 88);
+}
+
+a {
+  text-decoration: none;
+  color:rgb(1, 162, 255)
+}
+a:hover {
+  color: blueviolet
+}
+
+.container {
+  width: 750px;
+  margin: 40px auto;
+}
+
+.card {
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  text-align: center;
+  padding: 40px;
+  margin: 20px 0;
+}
+#presentation {
+  margin-bottom: 40px;
+}
+.btn-blue {
+  color: #ffffff;
+  background-color: rgb(1, 162, 255);
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  color: #fff;
+  background-color: rgb(166, 76, 230);
+}
+ul.list-inline {
+  padding: 0;
+}
+.list-inline li {
+  display: inline-block;
+  margin-left: 80px;
+  font-size: 22px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+
+  .list-inline li {
+    margin: 0 20px;
+    font-size: 20px;
+  }
+}
